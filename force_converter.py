@@ -48,7 +48,6 @@ root.geometry("380x300")
 root.resizable(False, False)
 
 # 1. 입력 프레임 (숫자 입력창 + 단위 선택 드롭다운)
-frame_input = tk.Frame(root, padding=10)
 frame_input = tk.Frame(root)
 frame_input.pack(pady=15)
 
